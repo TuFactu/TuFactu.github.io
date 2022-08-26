@@ -64,6 +64,8 @@ d)   Declaraciones o conducta de cualquier tercero en la Plataforma.`],
 ["MODIFICACIONES", `En Factú nos reservamos el derecho de modificar estos términos y condiciones en cualquier momento. Tales cambios serán anunciados a través de un correo electrónico, pantallas emergentes o serán colocados en zonas visibles de la plataforma. Si usted está en desacuerdo con los cambios realizados, puede cancelar su cuenta de usuario en cualquier momento.`],
 ["CESIÓN", `Factú podrá ceder estos términos y condiciones, en su totalidad o en parte, a cualquier persona o entidad en cualquier momento sin su consentimiento. Usted no podrá ceder estos términos y condiciones sin el consentimiento previo por escrito de Factú. Cualquier cesión no autorizada será nula y sin valor.`],
 ["ACEPTACIÓN", `Al registrarte en nuestra plataforma aceptas estos términos y condiciones.`],
+["POLÍTICAS DE DEVOLUCIONES", `En Factú valoramos el tiempo que invertimos en tu caso o trámite, debido a esto no hacemos devoluciones de ninguna transferencia. 
+Si no llegases a utilizar tu trámite ese año te daremos un crédito para el próximo año.`]
 ];
 const politicaDePrivacidadYProteccionDeDatos = [
     ["¿Qué información recopilamos en nuestra plataforma?", `Aquella información que nos suministras cuando te registras en nuestro sitio web o aplicación móvil, tales como: nombre, edad, fecha de nacimiento, correo electrónico, número de teléfono, ingresos mensuales, información de tus gastos, facturas electrónicas.`],
