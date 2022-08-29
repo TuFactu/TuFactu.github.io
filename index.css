@@ -1,3 +1,5 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
 @font-face {
     font-family: Montserrat;
     src: url(fonts/Montserrat/Montserrat-Regular.otf);
@@ -5,6 +7,24 @@
 
 * {
     font-family: Montserrat;
+}
+
+a {
+    color: #f6b33e;
+    font-style: normal;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #d99d36;
+    text-decoration: underline;
+}
+
+a:active,
+a:focus,
+a:visited {
+    color: #f6b33e;
+    text-decoration: none;
 }
 
 /* #896b95 */
