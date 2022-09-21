@@ -27,6 +27,14 @@ a:visited {
     text-decoration: none;
 }
 
+.go-back-icon {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    font-size: 1.5rem;
+    color: #f6b33e;
+}
+
 /* #896b95 */
 .accordion-button:not(.collapsed) {
     color: #896b95;
