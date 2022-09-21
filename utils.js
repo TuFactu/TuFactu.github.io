@@ -38,7 +38,8 @@ Si crees que tu cuenta se ha cancelado por error escríbenos a atencion@factutec
 Factú te otorga una licencia personal gratuita, intransmisible y no exclusiva para utilizar dicho software como parte del Servicio.
 Está prohibido copiar, modificar, transformar, distribuir, vender o arrendar cualquier parte del software, así como tratar de aplicar un procedimiento de ingeniería inversa o intentar extraer su código fuente, salvo que la ley prohíba estas restricciones o que cuentes con el permiso escrito de Factú.`],
 ["PLANES Y MEDIOS DE PAGO", `El usuario podrá elegir el plan que más se ajuste a sus necesidades, y será pagado de forma mensual o anual, a través de cargos recurrentes a su tarjeta de crédito.
-El pago del plan elegido, no incluye el costo de los servicios de Contadores Públicos Autorizados, los cuales serán facturados aparte directamente al usuario.`],
+El pago del plan elegido, no incluye el costo de los servicios de Contadores Públicos Autorizados, los cuales serán facturados aparte directamente al usuario.
+En el supuesto que el usuario escoja un plan de pago de forma mensual y deseé cancelar su suscripción de forma anticipada, tendrá que pagar un sobrecargo de cincuenta (50) dólares como indemnización por la terminación anticipada. Será luego de recibir este sobrecargo que se dará por terminada la suscripción y cesaran los cobros recurrentes.`],
 ["CARGOS POR PROCESAMIENTO DE PAGOS", `Para recibir los pagos del usuario según el plan de servicios elegido, Factú utiliza una empresa externa que le brinda el servicio de pasarela y procesamiento de pagos, que está integrado dentro del sitio web de Factú.
 El Usuario por este medio autoriza a Factú para descontar de cada venta el costo de la comisión generada por dicho procesador de pagos, el cual corresponde a un porcentaje de TRES PUNTO CINCUENTA POR CIENTO (3.50%), más VEINTE CENTAVOS (US$0.20), moneda de curso legal de los Estados Unidos de América.`],
 ["SUSPENSIÓN DEL SERVICIO POR FALTA DE PAGO", `En el caso de que el pago no pueda ser procesado por insuficiencia de fondos en dos (2) ocasiones consecutivas, Factú podría suspender el servicio, sin embargo sus datos de registro permanecerán en la plataforma hasta el año siguiente.`],
@@ -65,7 +66,8 @@ d)   Declaraciones o conducta de cualquier tercero en la Plataforma.`],
 ["CESIÓN", `Factú podrá ceder estos términos y condiciones, en su totalidad o en parte, a cualquier persona o entidad en cualquier momento sin su consentimiento. Usted no podrá ceder estos términos y condiciones sin el consentimiento previo por escrito de Factú. Cualquier cesión no autorizada será nula y sin valor.`],
 ["ACEPTACIÓN", `Al registrarte en nuestra plataforma aceptas estos términos y condiciones.`],
 ["POLÍTICAS DE DEVOLUCIONES", `En Factú valoramos el tiempo que invertimos en tu caso o trámite, debido a esto no hacemos devoluciones de ninguna transferencia. 
-Si no llegases a utilizar tu trámite ese año te daremos un crédito para el próximo año.`]
+Si no llegases a utilizar tu trámite ese año te daremos un crédito para el próximo año.
+En casos excepcionales y de forma discrecional, se devolverá lo abonado para un servicio menos el trabajo ya realizado, las comisiones de terceros (gestor de cobros, banco, etc.) y un cargo administrativo por devolución excepcional de cincuenta (50) balboas`]
 ];
 const politicaDePrivacidadYProteccionDeDatos = [
     ["¿Qué información recopilamos en nuestra plataforma?", `Aquella información que nos suministras cuando te registras en nuestro sitio web o aplicación móvil, tales como: nombre, edad, fecha de nacimiento, correo electrónico, número de teléfono, ingresos mensuales, información de tus gastos, facturas electrónicas.`],

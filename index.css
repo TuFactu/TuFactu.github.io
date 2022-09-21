@@ -28,11 +28,76 @@ a:visited {
 }
 
 .go-back-icon {
-    position: absolute;
-    top: 5%;
-    left: 5%;
+    display: inline-block;
+    position: fixed;
+    top: 2%;
+    left: 2%;
+    z-index: 1000;
     font-size: 1.5rem;
+
     color: #f6b33e;
+    transform: translateX(-80%);
+    animation: slideOut 0.2s ease-in-out alternate running;
+    opacity: 1;
+    text-decoration: none !important;
+    background: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.go-back-icon h3 {
+    opacity: 0;
+}
+
+.go-back-icon:hover h3 {
+    /* background: white; */
+
+    /* padding: 5px; */
+    /* margin: 5px; */
+    /* border-radius: 10px; */
+
+    animation: opacityUp 0.2s ease-in-out both;
+    opacity: 1;
+}
+
+.go-back-icon:hover {
+    color: #d99d36;
+    animation: slideIn 0.2s ease-in-out both;
+
+
+    opacity: 1;
+    transform: translateX(-80%);
+}
+
+@keyframes slideOut {
+    from {
+        transform: translateX(0%);
+
+    }
+
+    to {
+        transform: translateX(-80%);
+    }
+}
+
+@keyframes opacityUp {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-80%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
 }
 
 /* #896b95 */
