@@ -4,10 +4,14 @@ const utils = document.Utils;
         htmlElements: {
             terminosycondiciones: document.querySelector('#terminosycondiciones'),
             politicasdeprivacidad: document.querySelector('#politicasdeprivacidad'),
+            politicasdecookies: document.querySelector('#politicasdecookies'),
+            terminosycondicionesdelusodelaapp: document.querySelector('#terminos-y-condiciones-del-uso-de-la-app'),
         },
         init: () => {
-            App.methods.createAcordion(App.htmlElements.terminosycondiciones, "terminosycondiciones");
-            App.methods.createAcordion(App.htmlElements.politicasdeprivacidad, "politicasdeprivacidad");
+            App.methods.createAcordion(App.htmlElements.terminosycondiciones, "terminosycondiciones", 'terms&conditions');
+            App.methods.createAcordion(App.htmlElements.politicasdeprivacidad, "politicasdeprivacidad", 'privacy-policy');
+            App.methods.createAcordion(App.htmlElements.politicasdecookies, "politicasdecookies", 'cookies-policy');
+            App.methods.createAcordion(App.htmlElements.terminosycondicionesdelusodelaapp, "terminosycondicionesdelusodelaapp", 'terms&conditions-app');
         },
         templates: {
             acordion: (acordionId, itemId, title, content) => {
@@ -32,9 +36,9 @@ const utils = document.Utils;
             }
         },
         methods: {
-            createAcordion: (input, acordionId) => {
+            createAcordion: (input, acordionId, type) => {
                 // const acordionId = 'acordion';
-                const items = utils.getData().map((item, index) => {
+                const items = utils.getData(type).map((item, index) => {
                     return App.templates.acordion(acordionId, index, item.title, item.content);
                 }).join('');
                 const acordionContainer = App.templates.acordionContainer(acordionId, items);
