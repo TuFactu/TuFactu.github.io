@@ -6,12 +6,14 @@ const utils = document.Utils;
             politicasdeprivacidad: document.querySelector('#politicasdeprivacidad'),
             politicasdecookies: document.querySelector('#politicasdecookies'),
             terminosycondicionesdelusodelaapp: document.querySelector('#terminos-y-condiciones-del-uso-de-la-app'),
+            terminosycondicionesdelusodelatarjeta: document.querySelector('#terminos-y-condiciones-del-uso-de-la-tarjeta'),
         },
         init: () => {
             App.methods.createAcordion(App.htmlElements.terminosycondiciones, "terminosycondiciones", 'terms&conditions');
             App.methods.createAcordion(App.htmlElements.politicasdeprivacidad, "politicasdeprivacidad", 'privacy-policy');
             App.methods.createAcordion(App.htmlElements.politicasdecookies, "politicasdecookies", 'cookies-policy');
             App.methods.createAcordion(App.htmlElements.terminosycondicionesdelusodelaapp, "terminosycondicionesdelusodelaapp", 'terms&conditions-app');
+            App.methods.createAcordion(App.htmlElements.terminosycondicionesdelusodelatarjeta, "terminosycondicionesdelusodelatarjeta", 'terms&conditions-card');
         },
         templates: {
             acordion: (acordionId, itemId, title, content) => {

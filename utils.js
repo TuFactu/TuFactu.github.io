@@ -191,6 +191,48 @@ Si deseas cancelar tu suscripción a nuestra plataforma, te invitamos a que revi
     ["Procedimiento para reclamos relacionados a tus datos personales", `Deberás presentar tu reclamo con fundamento en la ley 81 de 2019, a través del correo electrónico atencion@factutech.com, acreditando tu condición de titular de los datos mediante copia de tu documento de identidad, En caso de que el titular esté representado por un tercero, deberá enviarnos el respectivo poder.`],
     ["¿Con quienes compartimos tu información?", `Tu información será tratada por el personal autorizado de Factú, con la finalidad de realizar los servicios que has solicitado. Tu información, no será vendida, intercambiada, o transferida a ninguna otra empresa por cualquier motivo, sin tu consentimiento.`],
     ["Cambios en nuestra política", `Cuando hagamos cambios en nuestra política, serán anunciados a través de un correo electrónico, pantallas emergentes o serán colocados en la plataforma.`]];
+const terminosYCondicionesDeTarjeta = [
+    ["PRIMERA: EMISORES DE LA TARJETA",
+        "FACTÚ y PAYCADDY serán los emisores conjuntos de la tarjeta de débito, en adelante, la “Factú Card”. Ambos emisores se comprometen a cumplir con todas las disposiciones legales y regulaciones aplicables relacionadas con la emisión y operación de la Tarjeta."],
+    ["SEGUNDA: RESPONSABILIDADES DEL TITULAR ",
+        "El Titular se compromete a utilizar la Tarjeta de acuerdo con los términos y condiciones establecidos por FACTÚ, así como con las leyes y regulaciones vigentes de la República de Panamá. El Titular acepta que cualquier transacción realizada con la Tarjeta se considerará válida y autorizada por el Titular."],
+    ["TERCERA: PROTECCIÓN DE LA INFORMACIÓN",
+        "FACTÚ se compromete a tomar todas las medidas necesarias para proteger la información personal y financiera del Titular. El emisor cumplirá con las regulaciones de privacidad y seguridad de datos aplicables para garantizar la confidencialidad de la información del Titular."],
+    ["CUARTA: RESPONSABILIDAD DEL EMISOR",
+        "FACTÚ se comprometen a proporcionar al Titular una Tarjeta funcional y operativa. Ambos emisores serán responsables de brindar al Titular asistencia y soporte en relación con cualquier problema o consulta relacionada con la Tarjeta."],
+    ["QUINTA: COMISIONES Y CARGOS",
+        "El Titular reconoce y acepta que FACTÚ podrá cobrar comisiones y cargos asociados con el uso de la Tarjeta, según lo estipulado en los términos y condiciones correspondientes. Estas comisiones y cargos podrán incluir, entre otros, cargos por retiros de efectivo, consultas de saldo y reemplazo de Tarjeta."],
+    ["SEXTA: RESCISIÓN Y TERMINACIÓN",
+        "FACTÚ se reserva el derecho de rescindir o suspender la emisión y el uso de la Tarjeta en caso de incumplimiento del Titular de las disposiciones del presente Acuerdo. Además, FACTÚ podrá modificar los términos y condiciones del Acuerdo previa notificación al Titular."],
+    ["SÉPTIMA: LEGISLACIÓN APLICABLE Y JURISDICCIÓN",
+        "Este Acuerdo se regirá por las leyes vigentes de la República de Panamá, país de emisión de la Tarjeta. Cualquier disputa o controversia que surja en relación con este Acuerdo estará sujeta a la jurisdicción exclusiva de los tribunales competentes de la República de Panamá."],
+    ["OCTAVA: ACTIVACIÓN Y MANEJO DE LA BILLETERA ELECTRÓNICA",
+        "La activación y manejo del billetera electrónica son gratuitos. En cuanto a la opción de creación de múltiples billeteras electrónicas, los usuarios pueden crear más de una billetera electrónica."],
+    ["NOVENA: PROTECCIÓN DE LOS FONDOS",
+        "FACTÚ siendo el emisor de las tarjetas, estipula que todos los fondos son guardados en un fideicomiso bancario al cual FACTÚ no cuenta con acceso, por lo que los fondos se encuentran estricta y rigurosamente protegidos."],
+    ["DÉCIMA: DESCRIPCIÓN DEL BILLETERA ELECTRÓNICA",
+        "La billetera electrónica es una cuenta electrónica que le permite cargar, almacenar y utilizar su dinero para realizar compras en línea y en tiendas físicas."],
+    ["UNDÉCIMA: DESCRIPCIÓN DE LA TARJETA DÉBITO",
+        "La tarjeta débito es una tarjeta física que le permite retirar dinero en cajeros automáticos y realizar compras en tiendas físicas."],
+    ["DUODÉCIMA: RESPONSABILIDAD DE LOS PADRES CON DEPENDIENTES",
+        "En el caso de que los padres deseen sacar una tarjeta para sus dependientes, el billetera electrónica puede llevar el nombre del titular principal, siendo el padre y la tarjeta a nombre de su dependiente. Sin embargo, es el padre quien tiene la responsabilidad total de la tarjeta, el seguro, la tarifa de manejo y los movimientos de esta."],
+    ["DÉCIMA TERCERA: COSTO DE LA TARJETA ",
+        "El costo de la tarjeta es de veinticinco doláres americanos ($25.00) más el ITBMS. La recarga mínima es de cinco doláres americanos ($5)."],
+    ["DÉCIMA CUARTA: LÍMITES DE RETIRO",
+        "Los retiros están limitados a un máximo de doscientos cincuenta doláres americanos  ($250) y un máximo de quinientos doláres americanos ($500) por día."],
+    ["DÉCIMA QUINTA: TARIFA DE MANTENIMIENTO Y SEGURO",
+        "La mensualidad de mantenimiento de la tarjeta es de dos doláres americanos ($2) y el seguro es de dos doláres americanos ($2) mensuales. Los usuarios que son premium, plus o pro no pagan mantenimiento por el primer año."],
+    ["DÉCIMA SEXTA: DERECHO DE ADMISIÓN",
+        "Nos reservamos el derecho de admisión para la tarjeta y en el ejercicio de la toma de decisiones nos reservamos el derecho de rechazar la aceptación de un cliente sin la obligación de proporcionar explicaciones."],
+    ["DÉCIMA SÉPTIMA: CIERRE DE CUENTA",
+        "En caso de detectar actividades sospechosas o que sean inconsistentes con nuestras políticas, nos reservamos el derecho absoluto de clausurar de manera uniletaral la cuenta del usuario. En tal situación, los fondos disponibles en la billetera electrónica del usuario serán devueltos mediante una transferencia bancaria automatizada en un plazo máximo de treinta (30) días."],
+    ["DÉCIMA OCTAVA: CONGELACIÓN DE FONDOS",
+        "En caso de incurrir en el delito de Fraude Finaciero tipificado en el Código Penal de Panamá, se adoptará ciertas actuaciones bajo recomendaciones de la Superintendencia de Bancos de Panamá, y en caso de ser necesario, los fondos serán congelados por el tiempo que se estime necesario."],
+    ["DÉCIMA NOVENA: RESPONSABILIDAD EN CASO DE FRAUDE",
+        "FACTÚ, en calidad de emisor de estas tarjetas, no asume responsabilidad por casos de fraude asociados a las mismas. No obstante, nos comprometemos a ejercer una vigilancia minuciosa y a seguir rigurosamente las directrices y recomendaciones establecidas por la Superintendencia de Bancos de Panamá con el fin de prevenir dichas situaciones."],
+    ["VIGÉSIMA: PROVENIENCIA DE LOS FONDOS",
+        "Los usuarios que tengan movimientos superiores a mil doláres americanos ($1,000) mensuales deberán presentarnos anualmente la proveniencia de los fondos para evitar ser congelados."],
+];
 const politicasDeCookies = [
     ["Acerca de las cookies", `Las “cookies” son identificadores alfanuméricos que transferimos al disco duro de su computadora a través del explorador Web, con el fin de identificarlo cuando usted ingresa a nuestro sitio Web. Usted tiene la opción de aceptar todas la “cookies”, de ser notificado cuando se instala una, o de rechazarlas todas.`],
     ["¿Cuál es la función de las cookies?", `Las cookies permiten a una página web, entre otras cosas, almacenar y recuperar información sobre los hábitos de navegación de un usuario o de su equipo y, dependiendo de la información que contengan y de la forma en que utilice su equipo, pueden utilizarse para reconocer al usuario.
@@ -223,6 +265,8 @@ Si tiene dudas sobre esta política puede comunicarse con nosotros a través del
                 return utils.dataArraysToContent(politicasDeCookies);
             else if (type === "terms&conditions-app")
                 return utils.dataArraysToContent(terminosYCondicionesDelUsoDelAppFactu);
+            else if (type === "terms&conditions-card")
+                return utils.dataArraysToContent(terminosYCondicionesDeTarjeta);
             else
                 return utils.dataArraysToContent([["No data", "No Data"]])
         }
